@@ -1,306 +1,40 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>REO Hosting - Tu solución en la nube</title>
-    <style>
-        /* Estilos generales */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: url('https://e0.pxfuel.com/wallpapers/413/201/desktop-wallpaper-server-room-purple-u-server-room-computer-server.jpg') no-repeat center center fixed;
-            background-size: cover;
-            color: #fff;
-        }
+<div align="center">
+<h1 align="center">Hola, soy RyayitoqqDev  👋</h1>
+</div>
 
-        .container {
-            width: 80%;
-            margin: 0 auto;
-        }
+[![Twitch Status](https://img.shields.io/twitch/status/aristidevs?style=social)](https://www.twitch.tv/ryayitoqq)
+[![Discord Shield](https://discordapp.com/api/guilds/807719549075980308/widget.png?style=shield)](https://discord.com/invite/JzyzVGx9vU)
 
-        /* Estilos para el encabezado */
-        header {
-            background: rgb(0, 0, 0);
-            background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0) 100%);
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
-        }
+## Sobre mi
 
-        header h1 {
-            margin: 0;
-            font-size: 36px;
-        }
+- ⭐ Github Star ⭐ 
+- 🖥️ PC developer
+- 🎥Te enseño a programar apps
+- 🧱Configuro tu servidor de minecraft
+- 💻Configuro bots de Discord                                                                             
 
-        header nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
+### 👨‍💻 Languages de Programacion
 
-        header nav ul li {
-            display: inline;
-            margin-left: 20px;
-        }
+<br />
 
-        header nav ul li a {
-            color: #fff;
-            text-decoration: none;
-        }
+[![Python](http://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=ffffff)](https://github.com/rayitoqq) 
+[![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat&logo=javascript&link=https://github.com/BRdhanani)](https://github.com/rayitoqq) 
+[![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat&logo=html&logoColor=white&link=https://github.com/BRdhanani)](https://github.com/rayitoqq) 
+[![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat&logo=css&link=https://github.com/BRdhanani)](https://github.com/rayitoqq) 
 
-        /* Estilos para el banner */
-        #banner {
-            background: url('https://cdn.pixabay.com/photo/2017/09/01/19/52/server-2701079_960_720.jpg') no-repeat center center fixed;
-            background-size: cover;
-            color: #fff;
-            padding: 100px 0;
-            text-align: center;
-        }
+[![Nodejs](https://img.shields.io/badge/-Nodejs-green?style=flat&logo=Node.js&link=https://github.com/BRdhanani)](https://github.com/rayitoqq) 
+[![Docker](https://img.shields.io/badge/-Docker-black?style=flat&logo=docker&link=https://github.com/BRdhanani)](https://github.com/rayitoqq) 
+[![WordPress](https://img.shields.io/badge/-WordPress-blue?style=flat&logo=wordpress&link=https://github.com/BRdhanani)](https://github.com/rayitoqq) 
+[![JSON](https://img.shields.io/badge/-json-02569B?style=flat&logo=json&link=https://github.com/BRdhanani)](https://github.com/rayitoqq) 
 
-        #banner h2 {
-            margin: 0;
-            font-size: 48px;
-        }
+[![MySQL](https://img.shields.io/badge/-MySQL-black?style=flat&logo=mysql&link=https://github.com/BRdhanani)](https://github.com/rayitoqq) 
+[![MongoDB](https://img.shields.io/badge/-MongoDB-FCA121?style=flat&logo=mongodb&link=https://github.com/BRdhanani)](https://github.com/rayitoqq) 
 
-        #banner p {
-            font-size: 24px;
-        }
+## &nbsp;GitHub Estadisticas
 
-        /* Estilos para las secciones */
-        section {
-            padding: 50px 0;
-        }
-
-        section h2 {
-            text-align: center;
-            margin-bottom: 30px;
-            font-size: 36px;
-        }
-
-        /* Estilos para el pie de página */
-        footer {
-            background: rgb(0, 0, 0);
-            background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0) 100%);
-            color: #fff;
-            text-align: center;
-            padding: 20px 0;
-        }
-
-        footer p {
-            margin: 0;
-        }
-
-        /* Estilos para la sección de servicios */
-        .services {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-        }
-
-        .service {
-            width: calc(33.33% - 20px);
-            margin-bottom: 40px;
-            padding: 20px;
-            background-color: rgba(255, 255, 255, 0.1);
-            border-radius: 10px;
-        }
-
-        .service h3 {
-            margin-top: 0;
-        }
-
-        .service p {
-            margin-bottom: 10px;
-        }
-
-        /* Estilos para el formulario de contacto */
-        form {
-            max-width: 600px;
-            margin: 0 auto;
-            background-color: rgba(255, 255, 255, 0.1);
-            padding: 20px;
-            border-radius: 10px;
-        }
-
-        form input, form textarea {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
-            border: none;
-            border-radius: 5px;
-            background-color: rgba(255, 255, 255, 0.3);
-            color: #fff;
-        }
-
-        form input[type="submit"] {
-            background-color: #333;
-            color: #fff;
-            cursor: pointer;
-        }
-
-        .client-area-button {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            background-color: red;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 15px;
-            text-decoration: none;
-        }
-
-        /* Nuevos estilos para imágenes */
-        .image-container {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            margin-bottom: 30px;
-        }
-
-        .image-container img {
-            width: 300px;
-            height: 200px;
-            border-radius: 10px;
-            margin-bottom: 20px;
-        }
-
-        /* Nuevos estilos para botones de compra */
-        .buy-button {
-            background-color: #4CAF50; /* Green */
-            border: none;
-            color: white;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;
-            border-radius: 10px;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <div class="container">
-            <h1>REO Hosting</h1>
-            <nav>
-                <ul>
-                    <li><a href="#servicios">Servicios</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <a href="#" class="client-area-button">Área del Cliente</a>
-
-    <section id="banner">
-        <div class="container">
-            <h2>Bienvenido a tu hogar en la nube 🌐</h2>
-            <p>Servicios de hosting confiables y seguros para tu sitio web</p>
-        </div>
-    </section>
-
-    <section id="servicios">
-        <div class="container">
-            <h2>Servicios de Hosting</h2>
-
-            <h3>Planes con Procesador Intel Xeon</h3>
-            <div class="services">
-                <div class="service">
-                    <h3>Plan Básico 💼</h3>
-                    <p>Espacio de almacenamiento: 50GB SSD</p>
-                    <p>Transferencia mensual: 500GB</p>
-                    <p>Ram: 2GB</p>
-                    <p>Precio: $190.50/mes (MXN)</p>
-                    <a href="https://www.paypal.com/paypalme/elola6311/190.50" class="buy-button">Comprar</a>
-                </div>
-                <!-- Agrega más planes aquí si es necesario -->
-            </div>
-
-            <h3>Planes con Procesador Ryzen</h3>
-            <div class="services">
-                <div class="service">
-                    <h3>Plan Económico 💰</h3>
-                    <p>Espacio de almacenamiento: 25GB SSD</p>
-                    <p>Transferencia mensual: 250GB</p>
-                    <p>Ram: 1GB</p>
-                    <p>Precio: $90.25/mes (MXN)</p>
-                    <a href="https://www.paypal.com/paypalme/elola6311/90.25" class="buy-button">Comprar</a>
-                </div>
-                <div class="service">
-                    <h3>Plan Estándar Plus 📈</h3>
-                    <p>Espacio de almacenamiento: 100GB SSD</p>
-                    <p>Transferencia mensual: 2TB</p>
-                    <p>Ram: 8GB</p>
-                    <p>Precio: $476.50/mes (MXN)</p>
-                    <a href="https://www.paypal.com/paypalme/elola6311/476.50" class="buy-button">Comprar</a>
-                </div>
-                <div class="service">
-                    <h3>Plan Premium Plus 🌟</h3>
-                    <p>Espacio de almacenamiento: 500GB SSD</p>
-                    <p>Transferencia mensual: 10TB</p>
-                    <p>Ram: 32GB</p>
-                    <p>Precio: $999.99/mes (MXN)</p>
-                    <a href="https://www.paypal.com/paypalme/elola6311/999.99" class="buy-button">Comprar</a>
-                </div>
-                <div class="service">
-                    <h3>Plan Ultra 💎</h3>
-                    <p>Espacio de almacenamiento: 1TB SSD</p>
-                    <p>Transferencia mensual: 20TB</p>
-                    <p>Ram: 64GB</p>
-                    <p>Precio: $1,703.75/mes (MXN)</p>
-                    <a href="https://www.paypal.com/paypalme/elola6311/1703.75" class="buy-button">Comprar</a>
-                </div>
-                <div class="service">
-                    <h3>Plan Mega 🚀</h3>
-                    <p>Espacio de almacenamiento: 2TB SSD</p>
-                    <p>Transferencia mensual: 40TB</p>
-                    <p>Ram: 128GB</p>
-                    <p>Precio: $2,886.50/mes (MXN)</p>
-                    <a href="https://www.paypal.com/paypalme/elola6311/2886.50" class="buy-button">Comprar</a>
-                </div>
-                <div class="service">
-                    <h3>Plan Supreme 🏆</h3>
-                    <p>Espacio de almacenamiento: 4TB SSD</p>
-                    <p>Transferencia mensual: 80TB</p>
-                    <p>Ram: 256GB</p>
-                    <p>Precio: $5,773/mes (MXN)</p>
-                    <a href="https://www.paypal.com/paypalme/elola6311/5773" class="buy-button">Comprar</a>
-                </div>
-                <!-- Agrega más planes aquí si es necesario -->
-            </div>
-        </div>
-    </section>
-
-    <section id="contacto">
-        <div class="container">
-            <h2>Contacto</h2>
-            <form>
-                <input type="text" name="nombre" placeholder="Nombre" required><br>
-                <input type="email" name="correo" placeholder="Correo electrónico" required><br>
-                <textarea name="mensaje" placeholder="Mensaje" required></textarea><br>
-                <input type="submit" value="Enviar">
-            </form>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>Derechos de Autor &copy; 2024 REO Hosting</p>
-            <p>Métodos de pago: PayPal</p>
-        </div>
-    </footer>
-
-    <!-- Nuevas imágenes -->
-    <div class="image-container">
-        <img src="https://cdn.pixabay.com/photo/2016/11/18/17/20/technology-1837870_960_720.jpg" alt="Servidores 🖥️">
-        <img src="https://cdn.pixabay.com/photo/2015/09/25/22/52/cloud-958224_960_720.jpg" alt="Computación en la nube ☁️">
-        <img src="https://cdn.pixabay.com/photo/2016/09/30/19/36/server-1704207_960_720.jpg" alt="Servidores 🖥️">
-    </div>
-</body>
-</html>
+<p align="center">
+<a href="https://github.com/rayitoqq">
+  <img height="150em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=rayitoqq&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
+  <img height="150em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=rayitoqq&layout=compact&langs_count=8&theme=algolia"/>
+</a>
+</p>
