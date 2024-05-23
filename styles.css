@@ -3,14 +3,15 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f7f7f7;
+  background-image: url('https://images.unsplash.com/photo-1559310070-6bfa6dcd5af6');
+  background-size: cover;
 }
 
 .container {
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.9);
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
@@ -66,6 +67,19 @@ p {
 
 .button:hover {
   background-color: #0056b3;
+}
+
+/* Estilos para botones exóticos */
+.exotic {
+  background-color: #ff7f50;
+  border-radius: 30px;
+  border: 2px solid #e56b38;
+  transition: all 0.3s ease;
+}
+
+.exotic:hover {
+  background-color: #e56b38;
+  border-color: #ff7f50;
 }
 
 /* Estilos para enlaces */
