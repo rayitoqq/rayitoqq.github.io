@@ -3,15 +3,14 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  background-image: url('https://images.unsplash.com/photo-1559310070-6bfa6dcd5af6');
-  background-size: cover;
+  background: #f0f0f0; /* Fondo gris claro */
 }
 
 .container {
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
-  background: rgba(255, 255, 255, 0.9);
+  background: #fff; /* Fondo blanco */
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
@@ -34,10 +33,11 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: #333;
+  font-weight: bold; /* Texto en negrita */
 }
 
 nav ul li a:hover {
-  color: #666;
+  color: #007bff; /* Cambia el color del texto al azul al pasar el mouse */
 }
 
 section {
@@ -46,6 +46,7 @@ section {
 
 h2 {
   color: #333;
+  margin-bottom: 20px; /* Aumenta el espacio inferior */
 }
 
 p {
@@ -56,8 +57,7 @@ p {
 .button {
   display: inline-block;
   padding: 10px 20px;
-  background: rgb(0, 123, 255);
-  background: linear-gradient(90deg, rgba(0, 123, 255, 1) 0%, rgba(255, 0, 123, 1) 100%);
+  background: #007bff; /* Azul */
   color: #fff;
   text-decoration: none;
   border: none;
@@ -67,10 +67,17 @@ p {
 }
 
 .button:hover {
-  background: rgb(255, 0, 123);
-  background: linear-gradient(90deg, rgba(255, 0, 123, 1) 0%, rgba(0, 123, 255, 1) 100%);
+  background: #0056b3; /* Azul más oscuro al pasar el mouse */
 }
 
 /* Estilos para botones exóticos */
 .exotic {
- 
+  background: #ff4500; /* Naranja */
+  border-radius: 30px;
+  border: 2px solid #e56b38;
+  transition: all 0.3s ease;
+}
+
+.exotic:hover {
+  background: #e56b38; /* Naranja más oscuro al pasar el mouse */
+}
