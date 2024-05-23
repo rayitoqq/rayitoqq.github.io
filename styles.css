@@ -11,7 +11,7 @@ body {
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.9);
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
@@ -56,30 +56,33 @@ p {
 .button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #007bff;
+  background: rgb(0, 123, 255);
+  background: linear-gradient(90deg, rgba(0, 123, 255, 1) 0%, rgba(255, 0, 123, 1) 100%);
   color: #fff;
   text-decoration: none;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background 0.3s ease;
 }
 
 .button:hover {
-  background-color: #0056b3;
+  background: rgb(255, 0, 123);
+  background: linear-gradient(90deg, rgba(255, 0, 123, 1) 0%, rgba(0, 123, 255, 1) 100%);
 }
 
 /* Estilos para botones exóticos */
 .exotic {
-  background-color: #ff7f50;
+  background: rgb(255, 127, 80);
+  background: linear-gradient(90deg, rgba(255, 127, 80, 1) 0%, rgba(255, 255, 0, 1) 100%);
   border-radius: 30px;
   border: 2px solid #e56b38;
   transition: all 0.3s ease;
 }
 
 .exotic:hover {
-  background-color: #e56b38;
-  border-color: #ff7f50;
+  background: rgb(255, 255, 0);
+  background: linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(255, 127, 80, 1) 100%);
 }
 
 /* Estilos para enlaces */
@@ -126,9 +129,11 @@ a:hover {
 }
 
 .social-links .button {
-  background-color: #1da1f2;
+  background: rgb(29, 161, 242);
+  background: linear-gradient(90deg, rgba(29, 161, 242, 1) 0%, rgba(13, 139, 245, 1) 100%);
 }
 
 .social-links .button:hover {
-  background-color: #0d8bf5;
+  background: rgb(13, 139, 245);
+  background: linear-gradient(90deg, rgba(13, 139, 245, 1) 0%, rgba(29, 161, 242, 1) 100%);
 }
