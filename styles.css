@@ -51,10 +51,27 @@ p {
   color: #666;
 }
 
+/* Estilos para botones */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
 /* Estilos para enlaces */
 a {
-  color: #007bff;
   text-decoration: none;
+  color: #007bff;
 }
 
 a:hover {
@@ -86,22 +103,18 @@ a:hover {
 }
 
 .social-links li a {
-  color: #007bff;
   text-decoration: none;
+  color: #fff;
 }
 
 .social-links li a:hover {
   text-decoration: underline;
 }
 
-.twitch-link {
-  color: #6441a5;
+.social-links .button {
+  background-color: #1da1f2;
 }
 
-.twitter-link {
-  color: #1da1f2;
-}
-
-.tiktok-link {
-  color: #69c9d0;
+.social-links .button:hover {
+  background-color: #0d8bf5;
 }
