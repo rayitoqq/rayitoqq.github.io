@@ -3,15 +3,15 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  background: #f0f0f0; /* Fondo gris claro */
+  background-color: #f5f5f5; /* Fondo gris claro */
 }
 
 .container {
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
-  background: #fff; /* Fondo blanco */
-  border-radius: 10px;
+  background-color: #fff; /* Fondo blanco */
+  border-radius: 20px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -42,6 +42,9 @@ nav ul li a:hover {
 
 section {
   margin-bottom: 40px;
+  padding: 20px;
+  background-color: #fafafa; /* Fondo gris claro */
+  border-radius: 10px;
 }
 
 h2 {
@@ -57,27 +60,47 @@ p {
 .button {
   display: inline-block;
   padding: 10px 20px;
-  background: #007bff; /* Azul */
+  background-color: #007bff; /* Azul */
   color: #fff;
   text-decoration: none;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background 0.3s ease;
+  transition: background-color 0.3s ease;
 }
 
 .button:hover {
-  background: #0056b3; /* Azul más oscuro al pasar el mouse */
+  background-color: #0056b3; /* Azul más oscuro al pasar el mouse */
 }
 
 /* Estilos para botones exóticos */
 .exotic {
-  background: #ff4500; /* Naranja */
+  background-color: #ff4500; /* Naranja */
   border-radius: 30px;
   border: 2px solid #e56b38;
   transition: all 0.3s ease;
 }
 
 .exotic:hover {
-  background: #e56b38; /* Naranja más oscuro al pasar el mouse */
+  background-color: #e56b38; /* Naranja más oscuro al pasar el mouse */
+}
+
+/* Estilos para enlaces */
+.social-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-links li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.social-links li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.social-links li a:hover {
+  text-decoration: underline;
 }
