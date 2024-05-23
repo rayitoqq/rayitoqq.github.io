@@ -15,72 +15,40 @@ body {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2, h3 {
+header {
   text-align: center;
-  color: #333;
+  margin-bottom: 40px;
 }
 
-ul {
-  list-style-type: none;
+nav ul {
   padding: 0;
-  text-align: center;
+  list-style-type: none;
 }
 
-li {
-  margin-bottom: 10px;
-  color: #666;
+nav ul li {
+  display: inline;
+  margin-right: 20px;
 }
 
-/* Estilos para los badges */
-.badge {
-  width: 150px;
-  height: auto;
-  display: block;
-  margin: 20px auto;
-}
-
-/* Estilos para los lenguajes de programación */
-.languages {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.languages a {
-  margin: 10px;
-}
-
-.languages img {
-  width: 100px;
-  height: auto;
-}
-
-/* Estilos para las estadísticas de GitHub */
-.stats {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 40px;
-}
-
-.stats img {
-  max-width: 45%;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.stats a {
+nav ul li a {
   text-decoration: none;
   color: #333;
 }
 
-.stats a:hover {
+nav ul li a:hover {
   color: #666;
 }
 
-/* Estilos específicos para el badge de Twitch */
-.badge-twitch {
-  width: 200px;
-  height: auto;
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  color: #666;
 }
 
 /* Estilos para enlaces */
@@ -93,26 +61,47 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Estilos para la sección "Sobre mí" */
-.about-me {
+/* Estilos para la sección de proyectos */
+.project {
   background-color: #f9f9f9;
   padding: 20px;
   border-radius: 10px;
-  margin-top: 40px;
-}
-
-.about-me h2 {
-  color: #333;
   margin-bottom: 20px;
 }
 
-.about-me p {
-  color: #666;
+.project h3 {
+  color: #333;
+  margin-bottom: 10px;
 }
 
-/* Estilos para el footer */
-.footer {
-  text-align: center;
-  margin-top: 40px;
-  color: #666;
+/* Estilos para enlaces a redes sociales */
+.social-links {
+  padding: 0;
+  list-style-type: none;
+}
+
+.social-links li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.social-links li a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.social-links li a:hover {
+  text-decoration: underline;
+}
+
+.twitch-link {
+  color: #6441a5;
+}
+
+.twitter-link {
+  color: #1da1f2;
+}
+
+.tiktok-link {
+  color: #69c9d0;
 }
