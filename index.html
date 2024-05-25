@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -10,24 +9,29 @@
       background-image: url('https://img.freepik.com/vector-gratis/fondo-abstracto-negro-azul_1340-17010.jpg'); /* Cambia la URL por la imagen de fondo que desees */
       background-size: cover;
       background-repeat: no-repeat;
+      font-family: 'Arial', sans-serif;
+      color: #fff;
     }
 
     .container {
-      background-color: rgba(255, 255, 255, 0.5); /* Blanco con 50% de opacidad */
+      background-color: rgba(0, 0, 0, 0.6); /* Negro con 60% de opacidad */
       padding: 20px;
       border-radius: 20px;
-      max-width: 800px;
-      margin: 0 auto;
+      max-width: 900px;
+      margin: 50px auto;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     }
 
     header {
       text-align: center;
+      margin-bottom: 50px;
     }
 
     nav ul {
       list-style: none;
       padding: 0;
       margin: 0;
+      text-align: center;
     }
 
     nav ul li {
@@ -37,45 +41,63 @@
 
     nav ul li a {
       text-decoration: none;
-      color: #333;
+      color: #ffcc00;
       font-weight: bold;
+      font-size: 1.2em;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #ff6600;
     }
 
     section {
-      margin-bottom: 30px;
+      margin-bottom: 50px;
     }
 
     h2 {
-      color: #333;
+      color: #ffcc00;
+      font-size: 2em;
+      text-shadow: 2px 2px 4px #000;
     }
 
     .project {
-      background-color: rgba(255, 255, 255, 0.8); /* Subcuadro con 80% de opacidad */
+      background-color: rgba(0, 0, 0, 0.7); /* Subcuadro con 70% de opacidad */
       padding: 15px;
       margin-bottom: 20px;
       border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
 
     .project h3 {
       margin-top: 0;
+      color: #ffcc00;
+      text-shadow: 1px 1px 2px #000;
     }
 
     .project p {
-      color: #333;
+      color: #fff;
+      text-shadow: 1px 1px 2px #000;
     }
 
     .button {
-      background-color: #333;
+      background-color: #ff6600;
       color: #fff;
       padding: 10px 20px;
       border: none;
       border-radius: 5px;
       text-decoration: none;
       display: inline-block;
+      transition: background-color 0.3s ease;
     }
 
     .button:hover {
-      background-color: #555;
+      background-color: #cc5200;
+    }
+
+    .social-links li {
+      display: inline;
+      margin-right: 10px;
     }
   </style>
 </head>
@@ -104,32 +126,32 @@
       <div class="project">
         <h3>LatinoMC | BoxPvP 🚀</h3>
         <p>Este proyecto es el resultado de horas de dedicación y creatividad. ¡Échale un vistazo!</p>
-        <a href="https://dsc.gg/latinomc" class="button exotic">Ver proyecto</a>
+        <a href="https://dsc.gg/latinomc" class="button">Ver proyecto</a>
       </div>
       <div class="project">
         <h3>Happy BOT 🌟</h3>
         <p>Un proyecto emocionante que desafió mis habilidades y me permitió crecer como desarrollador.</p>
-        <a href="https://dsc.gg/bothappy" class="button exotic">Ver proyecto</a>
+        <a href="https://dsc.gg/bothappy" class="button">Ver proyecto</a>
       </div>
       <div class="project">
         <h3>Ryayitoqq Hosting 🌐</h3>
         <p>Un proyecto de hosting game server bot de discord configuraciones y vps intel xeon y Intel i9.</p>
-        <a href="https://dsc.gg/ryayitoqqhosting" class="button exotic">Ver proyecto</a>
+        <a href="https://dsc.gg/ryayitoqqhosting" class="button">Ver proyecto</a>
       </div>
     </section>
 
     <section id="streaming">
       <h2>Twitch 🎮</h2>
       <p>¡Únete a mí en Twitch para disfrutar de transmisiones en vivo de juegos, tutoriales y mucho más!</p>
-      <a href="https://www.twitch.tv/ryayitoqq" class="button exotic">Twitch</a>
+      <a href="https://www.twitch.tv/ryayitoqq" class="button">Twitch</a>
     </section>
 
     <section id="contact">
       <h2>Algunas Redes 📧</h2>
       <p>¡Conéctate conmigo en mis redes sociales para estar al día con mis últimas actualizaciones y proyectos!</p>
       <ul class="social-links">
-        <li><a href="https://www.youtube.com/@ryayitoqq" class="button exotic">Youtuber</a></li>
-        <li><a href="https://www.tiktok.com/@ryayitoqq_studios" class="button exotic">TikTok</a></li>
+        <li><a href="https://www.youtube.com/@ryayitoqq" class="button">Youtuber</a></li>
+        <li><a href="https://www.tiktok.com/@ryayitoqq_studios" class="button">TikTok</a></li>
       </ul>
     </section>
   </div>
