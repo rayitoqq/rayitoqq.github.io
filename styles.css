@@ -94,3 +94,18 @@ h2 {
   display: inline;
   margin-right: 10px;
 }
+
+.social-links li a {
+  background-color: #ff6600;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.social-links li a:hover {
+  background-color: #cc5200;
+}
