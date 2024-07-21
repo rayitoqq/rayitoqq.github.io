@@ -1,164 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RyayitoqqDev</title>
-  <link rel="stylesheet" href="styles.css"> 
-  <style>
-    body {
-      background-image: url('https://img.freepik.com/vector-gratis/fondo-abstracto-negro-azul_1340-17010.jpg'); /* Cambia la URL por la imagen de fondo que desees */
-      background-size: cover;
-      background-repeat: no-repeat;
-      font-family: 'Arial', sans-serif;
-      color: #fff;
-    }
-
-    .container {
-      background-color: rgba(0, 0, 0, 0.6); 
-      padding: 20px;
-      border-radius: 20px;
-      max-width: 900px;
-      margin: 50px auto;
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    }
-
-    header {
-      text-align: center;
-      margin-bottom: 50px;
-    }
-
-    header h1 {
-      color: red;
-    }
-    
-    nav ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      text-align: center;
-    }
-
-    nav ul li {
-      display: inline;
-      margin-right: 20px;
-    }
-
-    nav ul li a {
-      text-decoration: none;
-      color: #ffcc00;
-      font-weight: bold;
-      font-size: 1.2em;
-      transition: color 0.3s ease;
-    }
-
-    nav ul li a:hover {
-      color: #ff6600;
-    }
-
-    section {
-      margin-bottom: 50px;
-    }
-
-    h2 {
-      color: #ffcc00;
-      font-size: 2em;
-      text-shadow: 2px 2px 4px #000;
-    }
-
-    .project {
-      background-color: rgba(0, 0, 0, 0.7); 
-      padding: 15px;
-      margin-bottom: 20px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    }
-
-    .project h3 {
-      margin-top: 0;
-      color: #ffcc00;
-      text-shadow: 1px 1px 2px #000;
-    }
-
-    .project p {
-      color: #fff;
-      text-shadow: 1px 1px 2px #000;
-    }
-
-    .button {
-      background-color: #ff6600;
-      color: #fff;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      text-decoration: none;
-      display: inline-block;
-      transition: background-color 0.3s ease;
-    }
-
-    .button:hover {
-      background-color: #cc5200;
-    }
-
-    .social-links li {
-      display: inline;
-      margin-right: 10px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Ryayitoqq</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77a3ff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header .current a {
+            color: #77a3ff;
+            font-weight: bold;
+        }
+        #showcase {
+            min-height: 400px;
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding-top: 100px;
+        }
+        #showcase h1 {
+            font-size: 55px;
+            margin-top: 0;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        #main {
+            padding: 20px;
+            background: #fff;
+            color: #333;
+        }
+        .skills, .projects, .contact {
+            margin-bottom: 40px;
+        }
+        .skills h2, .projects h2, .contact h2 {
+            color: #333;
+            border-bottom: 3px solid #77a3ff;
+        }
+        .skills ul, .projects ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills ul li, .projects ul li {
+            background: #f4f4f4;
+            margin: 5px 0;
+            padding: 10px;
+            border: #ccc 1px solid;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
     <header>
-      <h1>Hola, soy RyayitoqqDev 👋</h1>
-      <nav>
-        <ul>
-          <li><a href="#about">Acerca de mí</a></li>
-          <li><a href="#projects">Proyectos</a></li>
-          <li><a href="#streaming">Mi Twitch</a></li>
-          <li><a href="#contact">Algunas Redes</a></li>
-        </ul>
-      </nav>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Portafolio</span> de Ryayitoqq</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="#">Inicio</a></li>
+                    <li><a href="#">Habilidades</a></li>
+                    <li><a href="#">Proyectos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section id="about">
-      <h2>Acerca de mí</h2>
-      <p>Hola, soy RyayitoqqDev, un apasionado desarrollador de software. Me encanta transformar ideas en realidad y compartir mi conocimiento con la comunidad.</p>
-      <p>Desde la creación de aplicaciones hasta la configuración de servidores de Minecraft, estoy aquí para ayudarte en tu viaje tecnológico.</p>
+    <section id="showcase">
+        <div class="container">
+            <h1>Bienvenido a Mi Portafolio</h1>
+            <p>Explora mis habilidades en hacking y programación</p>
+        </div>
     </section>
 
-    <section id="projects">
-      <h2>Proyectos</h2>
-      <div class="project">
-        <h3>LatinoMC Network 🚀</h3>
-        <p>Mi servidor survival con muchas cosas. ¡Échale un vistazo!</p>
-        <a href="https://dsc.gg/latinomc" class="button">Ver proyecto</a>
-      </div>
-      <div class="project">
-        <h3>Happy BOT 🌟</h3>
-        <p>Un bot de discord para todo publico con diferentes funciones.</p>
-        <a href="https://dsc.gg/bothappy" class="button">Ver proyecto</a>
-      </div>
-      <div class="project">
-        <h3>Pony Hosting 🌐</h3>
-        <p>Mi Empresa de hosting de VPS y Game Servers Intel Xeon Y Intel i9.</p>
-        <a href="https://dsc.gg/ponyhost" class="button">Ver proyecto</a>
-      </div>
+    <section id="main" class="container">
+        <div class="skills">
+            <h2>Habilidades</h2>
+            <ul>
+                <li><strong>Lenguajes de Programación:</strong> Python, JavaScript, SQL, Java, HTML</li>
+                <li><strong>Desarrollo de Bots de Discord:</strong> Creación de bots personalizados para automatización y raideo</li>
+                <li><strong>Herramientas de Raideo:</strong> Desarrollo y uso de herramientas avanzadas para pruebas de seguridad</li>
+                <li><strong>Hacking Ético:</strong> Auditorías de seguridad y pruebas de penetración</li>
+                <li><strong>SQL Injection:</strong> Técnicas avanzadas para explotación de bases de datos</li>
+                <li><strong>Programación Web:</strong> Desarrollo de aplicaciones web seguras</li>
+            </ul>
+        </div>
+
+        <div class="projects">
+            <h2>Proyectos</h2>
+            <ul>
+                <li><strong>Bot de Discord "RaiderMaster":</strong> Un bot avanzado para gestionar raids y automatizaciones en servidores de Discord.</li>
+                <li><strong>Herramienta de SQL Injection:</strong> Desarrollo de una herramienta para detectar y explotar vulnerabilidades SQL.</li>
+                <li><strong>Aplicación Web Segura:</strong> Creación de una aplicación web con múltiples capas de seguridad para proteger datos sensibles.</li>
+                <li><strong>Script de Hacking Ético:</strong> Un conjunto de scripts para realizar auditorías de seguridad en redes y aplicaciones.</li>
+            </ul>
+        </div>
+
+        <div class="contact">
+            <h2>Contacto</h2>
+            <p>Si deseas contactarme para algún proyecto o colaboración, puedes enviarme un correo a: <a href="mailto:tuemail@ejemplo.com">tuemail@ejemplo.com</a></p>
+        </div>
     </section>
 
-    <section id="streaming">
-      <h2>Twitch 🎮</h2>
-      <p>¡Únete a mí en Twitch para disfrutar de transmisiones en vivo de juegos, tutoriales y mucho más!</p>
-      <a href="https://www.twitch.tv/ryayitoqq" class="button">Twitch</a>
-    </section>
-
-    <section id="contact">
-      <h2>Algunas Redes 📧</h2>
-      <p>¡Conéctate conmigo en mis redes sociales para estar al día con mis últimas actualizaciones y proyectos!</p>
-      <ul class="social-links">
-        <li><a href="https://www.youtube.com/@ryayitoqq" class="button">Youtuber</a></li>
-        <li><a href="https://www.tiktok.com/@ryayitoqqtwitch" class="button">TikTok</a></li>
-      </ul>
-    </section>
-  </div>
+    <footer>
+        <p>Portafolio de Ryayitoqq &copy; 2024</p>
+    </footer>
 </body>
 </html>
