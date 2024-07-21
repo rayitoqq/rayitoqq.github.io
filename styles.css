@@ -1,111 +1,94 @@
 body {
-  background-image: url('https://img.freepik.com/vector-gratis/fondo-abstracto-negro-azul_1340-17010.jpg'); /* Cambia la URL por la imagen de fondo que desees */
-  background-size: cover;
-  background-repeat: no-repeat;
-  font-family: 'Arial', sans-serif;
-  color: #ccc;
-  margin: 0;
-  padding: 0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
 .container {
-  background-color: rgba(0, 0, 0, 0.6); /* Negro con 60% de opacidad */
-  padding: 20px;
-  border-radius: 20px;
-  max-width: 900px;
-  margin: 50px auto;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
 }
 
 header {
-  text-align: center;
-  margin-bottom: 50px;
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77a3ff 3px solid;
 }
 
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  text-align: center;
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
 }
 
-nav ul li {
-  display: inline;
-  margin-right: 20px;
+header ul {
+    padding: 0;
+    list-style: none;
 }
 
-nav ul li a {
-  text-decoration: none;
-  color: #f00; /* Color rojo */
-  font-weight: bold;
-  font-size: 1.2em;
-  transition: color 0.3s ease;
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
 }
 
-nav ul li a:hover {
-  color: #ff6600;
+header .current a {
+    color: #77a3ff;
+    font-weight: bold;
 }
 
-section {
-  margin-bottom: 50px;
+#showcase {
+    min-height: 400px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
 }
 
-h2 {
-  color: #ffcc00;
-  font-size: 2em;
-  text-shadow: 2px 2px 4px #000;
+#showcase h1 {
+    font-size: 55px;
+    margin-top: 0;
 }
 
-.project {
-  background-color: rgba(0, 0, 0, 0.7); /* Subcuadro con 70% de opacidad */
-  padding: 15px;
-  margin-bottom: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+#showcase p {
+    font-size: 20px;
 }
 
-.project h3 {
-  margin-top: 0;
-  color: #ffcc00;
-  text-shadow: 1px 1px 2px #000;
+#main {
+    padding: 20px;
+    background: #fff;
+    color: #333;
 }
 
-.project p {
-  color: #fff;
-  text-shadow: 1px 1px 2px #000;
+.skills, .projects, .contact {
+    margin-bottom: 40px;
 }
 
-.button {
-  background-color: #ff6600;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  text-decoration: none;
-  display: inline-block;
-  transition: background-color 0.3s ease;
+.skills h2, .projects h2, .contact h2 {
+    color: #333;
+    border-bottom: 3px solid #77a3ff;
 }
 
-.button:hover {
-  background-color: #cc5200;
+.skills ul, .projects ul {
+    list-style: none;
+    padding: 0;
 }
 
-.social-links li {
-  display: inline;
-  margin-right: 10px;
+.skills ul li, .projects ul li {
+    background: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+    border: #ccc 1px solid;
 }
 
-.social-links li a {
-  background-color: #ff6600;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  text-decoration: none;
-  display: inline-block;
-  transition: background-color 0.3s ease;
-}
-
-.social-links li a:hover {
-  background-color: #cc5200;
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
 }
