@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f4f4f4;
+    background: url('https://via.placeholder.com/1920x1080') no-repeat center center fixed;
+    background-size: cover;
     color: #333;
     margin: 0;
     padding: 0;
@@ -8,11 +9,12 @@ body {
 }
 
 header {
-    background-color: #2c3e50;
+    background-color: rgba(44, 62, 80, 0.8);
     color: white;
     padding: 20px;
     text-align: center;
     position: relative;
+    border-bottom: 2px solid #2980b9;
 }
 
 header .logo img {
@@ -22,6 +24,7 @@ header .logo img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    border: 3px solid #fff;
 }
 
 nav ul {
@@ -44,20 +47,21 @@ nav ul li a {
     padding: 10px 20px;
     background-color: #2980b9;
     border-radius: 5px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 nav ul li a:hover {
     background-color: #3498db;
+    transform: scale(1.05);
 }
 
 section {
     padding: 40px 20px;
     margin: 20px auto;
     max-width: 1000px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
     border-radius: 8px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 .gallery {
@@ -81,11 +85,12 @@ section {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #2c3e50;
+    background-color: rgba(44, 62, 80, 0.8);
     color: white;
     position: relative;
     bottom: 0;
     width: 100%;
+    border-top: 2px solid #2980b9;
 }
 
 .contact-links {
