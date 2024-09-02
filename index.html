@@ -4,8 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio de Ryayitoqq</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #121212;
+            color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1e1e2f;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .logo img {
+            max-width: 120px;
+            border-radius: 50%;
+        }
+        h1 {
+            font-size: 36px;
+            margin: 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #f0f0f0;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 10px;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #ff6b6b;
+        }
+        section {
+            padding: 60px 20px;
+            margin: 20px auto;
+            background-color: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            width: 90%;
+            max-width: 1200px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(10px);
+        }
+        h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #ff6b6b;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+        .contact-item {
+            text-align: center;
+        }
+        .contact-item img {
+            width: 80px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .contact-item img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 16px rgba(255, 107, 107, 0.7);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1e1e2f;
+            color: #f0f0f0;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -75,5 +170,9 @@
             </div>
         </div>
     </section>
+
+    <footer>
+        <p>&copy; 2024 Ryayitoqq. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
