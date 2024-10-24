@@ -23,7 +23,7 @@ const config = {
         title: "Sobre Mi",
         description: "Me llamo <span class='highlight'>Ryayitoqq</span>, me gusta mucho la programacion y quisiera se alguien de lo grandes programador estamos en proceso.",
         mission: "Mi mision es hacer esto algo diferente a lo comun.",
-        techStack: ["JavaScript", "Python", "SQL", "NodeJS", "PHP", "Html", "Minecraft Developer"]
+        techStack: ["JavaScript", "Python", "SQL", "NodeJS", "PHP", "Html", "Windows Optimizer" "Minecraft Developer"]
     },
     skills: {
         title: "Lenguajes que domino",
