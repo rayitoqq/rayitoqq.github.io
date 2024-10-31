@@ -50,7 +50,7 @@ const config = {
             {
                 title: "FluxLux Studio",
                 description: "Minecraft Configs ,Plugins ,Setups Free ,etc.",
-                image: "fluxluxstudio.png",
+                image: "fluxluxstudios2.png",
                 link: "https://dsc.gg/fluxluxstudio"
             },
             {
