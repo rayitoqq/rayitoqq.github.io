@@ -42,7 +42,7 @@ const config = {
         title: "Mis Proyectos",
         projectsList: [
             {
-                title: "Ryayitoqq Studios",
+                title: "Ryayitoqq Studios | Cerrado",
                 description: "Cuentas gratuitas de todo.",
                 image: "ryayitoqqstudioslogo.png",
                 link: "https://dsc.gg/ryayitoqqstudios"
