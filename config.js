@@ -5,7 +5,7 @@ const config = {
     navLinks: [
         { text: "Inicio", href: "#home" },
         { text: "Sobre Mi", href: "#about" },
-        { text: "Lenguajes", href: "#skills" },
+        { text: "Habilidades", href: "#skills" },
         { text: "Projectos", href: "#projects" },
         { text: "Contacto", href: "#contact" }
     ],
@@ -26,7 +26,7 @@ const config = {
         techStack: ["JavaScript", "Python", "SQL", "NodeJS", "PHP", "Html", "Minecraft Developer"]
     },
     skills: {
-        title: "Lenguajes que domino",
+        title: "Mis Habilidades",
         skillsList: [
             { icon: "fab fa-java", name: "JavaScript" },
             { icon: "fab fa-python", name: "Python" },
