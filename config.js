@@ -49,9 +49,9 @@ const config = {
             },
             {
                 title: "FluxLux Studio",
-                description: "Minecraft Configs ,Plugins ,Setups Free ,etc.",
+                description: "Venta de Cuentas ,MC Configs y Sorteos Diareos",
                 image: "fluxluxstudios2.png",
-                link: "https://dsc.gg/fluxluxstudio"
+                link: "https://dsc.gg/fluxluxstudios"
             },
             {
                 title: "Proximamente",
