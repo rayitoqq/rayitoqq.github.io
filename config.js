@@ -6,7 +6,7 @@ const config = {
         { text: "Inicio", href: "#home" },
         { text: "Sobre Mi", href: "#about" },
         { text: "Habilidades", href: "#skills" },
-        { text: "Projectos", href: "#projects" },
+        { text: "Proyectos", href: "#projects" },
         { text: "Contacto", href: "#contact" }
     ],
     hero: {
