@@ -42,10 +42,10 @@ const config = {
         title: "Mis Proyectos",
         projectsList: [
             {
-                title: "Ryayitoqq Studios | Cerrado",
-                description: "Cuentas gratuitas de todo.",
-                image: "ryayitoqqstudioslogo.png",
-                link: "https://dsc.gg/ryayitoqqstudios"
+                title: "LatinoMC | Network",
+                description: "Servidor de minecraft con boxpvp y proximamente survival.",
+                image: "latinomclogo.png",
+                link: "https://dsc.gg/latinomc"
             },
             {
                 title: "FluxLux Studio",
