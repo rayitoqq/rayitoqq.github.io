@@ -42,7 +42,7 @@ const config = {
         title: "Mis Proyectos",
         projectsList: [
             {
-                title: "LatinoMC | Network",
+                title: "LatinoMC | Cerrado",
                 description: "Servidor de minecraft con boxpvp y proximamente survival.",
                 image: "latinomclogo.png",
                 link: "https://dsc.gg/latinomc"
