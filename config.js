@@ -42,22 +42,22 @@ const config = {
         title: "Mis Proyectos",
         projectsList: [
             {
-                title: "LatinoMC | Cerrado",
-                description: "Servidor de minecraft con boxpvp y proximamente survival.",
-                image: "latinomclogo.png",
-                link: "https://dsc.gg/latinomc"
+                title: "NeuroBot | Oficial",
+                description: "Mi bot verificado con cosas muy divertidad y eficientes.",
+                image: "neurobot logo.png",
+                link: "https://dsc.gg/neurobot"
             },
             {
                 title: "FluxLux Studio",
-                description: "Venta de Cuentas ,MC Configs y Sorteos Diareos",
-                image: "fluxluxstudios2.png",
+                description: "Venta de servicios developeer web,minecraft y discord",
+                image: "fluxlux Studios.png",
                 link: "https://dsc.gg/fluxluxstudios"
             },
             {
-                title: "Proximamente",
-                description: "Proximamente",
-                image: "inte.png",
-                link: ""
+                title: "Fluxlux Hosting",
+                description: "Hosting de alta gama potente al mejor precio y en miami",
+                image: "fluxhost.png",
+                link: "https://dsc.gg/fluxluxhost"
             }
         ]
     },
