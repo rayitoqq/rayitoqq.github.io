@@ -44,13 +44,13 @@ const config = {
             {
                 title: "NeuroBot | Oficial",
                 description: "Mi bot verificado con cosas muy divertidad y eficientes.",
-                image: "neurobot logo.png",
+                image: "neurobotlogo.png",
                 link: "https://dsc.gg/neurobot"
             },
             {
                 title: "FluxLux Studio",
                 description: "Venta de servicios developeer web,minecraft y discord",
-                image: "fluxlux Studios.png",
+                image: "fluxluxStudios.png",
                 link: "https://dsc.gg/fluxluxstudios"
             },
             {
