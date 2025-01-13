@@ -35,7 +35,8 @@ const config = {
             { icon: "fab fa-php", name: "PHP" },
             { icon: "fab fa-html5", name: "Html" },
             { icon: "fas fa-windows", name: "Windows Optimizer" },
-            { icon: "fas fa-cubes", name: "Minecraft Development" }
+            { icon: "fas fa-cubes", name: "Minecraft Development" },
+            { icon: "fas fa-java", name: "Java" }
         ]
     },
     projects: {
