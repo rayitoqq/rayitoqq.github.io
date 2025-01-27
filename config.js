@@ -28,10 +28,10 @@ const config = {
     skills: {
         title: "Mis Habilidades",
         skillsList: [
-            { icon: "fab fa-java", name: "JavaScript" },
+            { icon: "fab fa-js", name: "JavaScript" },
             { icon: "fab fa-python", name: "Python" },
             { icon: "fas fa-database", name: "SQL" },
-            { icon: "fas fa-code", name: "NodeJS" },
+            { icon: "fab fa-node-js", name: "NodeJS" },
             { icon: "fab fa-php", name: "PHP" },
             { icon: "fab fa-html5", name: "Html" },
             { icon: "fas fa-windows", name: "Windows Optimizer" },
