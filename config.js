@@ -43,22 +43,22 @@ const config = {
         title: "Mis Proyectos",
         projectsList: [
             {
-                title: "NeuroBot | Oficial",
-                description: "Mi bot verificado con cosas muy divertidad y eficientes.",
+                title: "NexoraMC | Network",
+                description: "Mi network de minecraft.",
                 image: "neurobotlogo.png",
                 link: "https://dsc.gg/neurobot"
             },
             {
-                title: "FluxLux Studio",
-                description: "Venta de servicios developeer web,minecraft y discord",
+                title: "FindVault",
+                description: "Finder MC Gratuito , Gen Gratuito , Tools Gratuitsa",
                 image: "fluxluxStudios.png",
                 link: "https://dsc.gg/fluxluxstudios"
             },
             {
-                title: "Fluxlux Hosting",
-                description: "Hosting de alta gama potente al mejor precio y en miami",
+                title: "Fluxlux Hosting | Cerrado",
+                description: "Cerrado",
                 image: "fluxhost.png",
-                link: "https://dsc.gg/fluxluxhost"
+                link: "https://dsc.gg/cerrado"
             }
         ]
     },
